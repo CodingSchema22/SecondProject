@@ -1,0 +1,86 @@
+/* ================= CONTACT SECTION ================= */
+#full {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  background: #0b0f2a;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ================= FORM CONTAINER ================= */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem;
+  width: 100%;
+  max-width: 500px;
+  background: #0b0f2a;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 14px;
+}
+
+/* ================= FORM GROUP ================= */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* ================= LABEL ================= */
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* ================= INPUT & TEXTAREA ================= */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  color: #000;
+  font-weight: 500;
+  border: 2px solid #000;
+  border-radius: 20px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus Effect */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #f4c430;
+  box-shadow: 0 0 0 2px rgba(244, 196, 48, 0.3);
+}
+
+/* ================= MESSAGE FIELD ================= */
+#msg {
+  min-height: 120px;
+  resize: none;
+}
+/* ================= RESPONSIVE ================= */
+@media screen and (max-width: 768px) {
+  #full {
+    padding: 3rem 1.5rem;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  /* .btn {
+    width: 100%;
+    text-align: center;
+  } */
+}

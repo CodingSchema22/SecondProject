@@ -1,0 +1,193 @@
+/* ===================== HERO SECTION ===================== */
+*{
+    background: #0b0f2a;
+margin: 0;
+padding: 0;
+}
+#hero {
+    background: #0b0f2a;
+    height: 600px;
+    /* border: 2px solid #0b0f2a; */
+}
+
+/* Main container inside hero */
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 20px 40px 20px; /* Top, sides, bottom */
+    background: #0b0f2a;
+    filter: contrast(80%);
+    color: #fff;
+    border-bottom-left-radius:30%;
+min-height: 400px;
+}
+
+/* Heading content */
+.heading {
+    flex: 1 1 400px; /* Flexible width with minimum 400px */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    max-width: 500px;
+}
+
+.heading p {
+    line-height: 1.6;
+}
+
+/* Info boxes inside heading */
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bo-1 {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image container */
+.image {
+    flex: 1 1 400px;
+    max-width: 400px;
+    height: 400px;
+}
+.hexagon {
+  width: 400px;
+  height: 460px;
+  clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
+  overflow: hidden;
+}
+
+ img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Button styling */
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.btn button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #f4c430;
+    color: black;
+    border: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: #e0b800;
+}
+
+/* ===================== MEDIA QUERIES ===================== */
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 1024px) {
+    .hexagon {
+  width: 200px;
+  height: 250px;
+    }
+    #hero {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .main-cont {
+        padding-top: 60px;
+        border-bottom-left-radius: 15%;
+    }
+    .image {
+        height: 400px;
+    }
+    .heading {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Small screens (mobile) */
+@media screen and (max-width: 768px) {
+    .main-cont {
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        border-bottom-left-radius: 10%;
+    }
+
+    .image {
+        width: 90%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .info {
+        justify-content: center;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+}
+
+/* Extra small screens (phones) */
+@media screen and (max-width: 480px) {
+    .image {
+        height: 250px;
+    }
+
+    .btn button {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .heading p {
+        font-size: 14px;
+    }
+}

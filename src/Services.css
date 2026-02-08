@@ -1,0 +1,40 @@
+.services{
+    background: #0b0f2a;
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.services-grid{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.service-card{
+    width: 300px;
+    line-height: 30px;
+}
+.service-info{
+    padding: 30px;
+    line-height: 30px;
+  	box-shadow: 0 0 50px black;
+}
+/* Project */
+.img{
+    width: 250px;
+    height:360px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about{
+    padding: 10px;
+    margin-top: 30px;
+}
+
