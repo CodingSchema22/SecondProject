@@ -43,9 +43,9 @@
     position: absolute;
     top: 60px;
     right: 0;
-    width: 100%;
+    width: 50%;
     line-height: 50px;
-    height: 90vh;
+    height: 100vh;
     padding: 40px;
     border-radius: 0 0 5px 5px;
   }

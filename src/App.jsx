@@ -34,7 +34,6 @@ function App() {
     <Project></Project>
     <Services></Services>
     <Contact></Contact>
-
 </>
   )
 }
