@@ -8,13 +8,13 @@ import './Contact.css'
 import './Navbar.css'
 
 
-import Home from './copmponents/Home'
-import Navbar from './copmponents/Navbar'
-import Hero from './copmponents/Hero'
-import Resume from './copmponents/Resume'
-import Project from './copmponents/Project'
-import Services from './copmponents/Services'
-import Contact from './copmponents/Contact'
+import Home from './components/Home'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Resume from './components/Resume'
+import Project from './components/Project'
+import Services from './components/Services'
+import Contact from './components/Contact'
 
 
 
