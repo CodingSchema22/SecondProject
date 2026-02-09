@@ -4,25 +4,24 @@ import { motion } from "framer-motion";
 const services = [
   {
     icon: "fa-brands fa-react",
-    title: "MERN Stack Development",
-    desc: "I am a passionate MERN Stack developer skilled in building dynamic, full-stack web applications using modern technologies"
+    title: "Frontend Development",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit."
   },
   {
     icon: "fa-solid fa-mobile-screen",
     title: "Responsive Website",
-    desc: "I am a passionate MERN Stack developer skilled in building dynamic, full-stack web applications using modern technologies"
+    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit."
   },
   {
     icon: "fa-solid fa-code",
     title: "Frontend Development",
-    desc: "I am a passionate MERN Stack developer skilled in building dynamic, full-stack web applications using modern technologies"
+    desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit."
   }
 ];
 
 const Services = () => {
   return (
     <section id="Services">
-    
         <div className="services">
       <h2>My Services</h2>
 

@@ -19,9 +19,8 @@ const Hero = () => {
 <h1>
   <i>I am a Frontend Web Developer </i>
   </h1>
-<p>Dedicated web developer committed 
-  to delivering pixel-perfect designs and clean, 
-  efficient code.I bring creativity and technical prowess to every project, ensuring exceptional outcomes. Let's elevate your online presence together
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit.
 </p>
 {/* <div className="info">
   <div className="bo-1">hi</div>

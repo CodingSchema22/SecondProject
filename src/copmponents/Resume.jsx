@@ -46,10 +46,10 @@ const Resume = () => {
                   exit={{ opacity: 0, x: 40 }}
                   transition={{ duration: 0.4 }}
                 >
-                  <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>The Quest High School Completed matriculation in 2018-2019, eager to explore new educational opportunities</p> </div>
-                   <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>The Quest High School Completed matriculation in 2018-2019, eager to explore new educational opportunities</p> </div>
+                  <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit.</p> </div>
+                   <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit.</p> </div>
 
-                  <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>The Quest High School Completed matriculation in 2018-2019, eager to explore new educational opportunities</p> </div>
+                  <div className="boxes"> <p className="date">2018-19</p> <h2>Completed Matriculation</h2> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non doloribus cupiditate maxime labore, sint quam ad fugit sit.</p> </div>
                 </motion.div>
               )}
 

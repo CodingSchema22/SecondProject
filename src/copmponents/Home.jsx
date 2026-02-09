@@ -7,7 +7,7 @@ const Home = () => {
         <img src="download.jpg"></img>
         <div className="hero-content">
           <h1>
-            I AM <span>RAZU AHAMED</span><br />
+            I AM <span>Fatima</span><br />
             & I AM A FRONTEND DEVELOPER.
           </h1>
           <p>
